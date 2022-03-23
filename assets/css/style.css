@@ -1,0 +1,37 @@
+body {
+    background-color:rgb(44, 38, 38);
+}
+
+.flex-fill {
+    flex:1 1 auto;
+}
+
+.pageCard {
+    min-height: 100vh;
+    /* background-color: rgb(226, 173, 0); */
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.logo {
+    place-items: center;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.card {
+    text-align: center;
+    place-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+@media (max-width: 633px) {
+    img{
+        width: 350px;
+        height: 166px
+    }
+}
